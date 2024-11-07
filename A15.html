@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+/* descent selector */
+section p{
+    color: blue;
+} */
+/* child sibling */
+section>p{
+    color: rgb(172, 0, 106);
+}
+/* adjustant sibling selector */
+section +p{
+    color: rgb(42, 165, 149);
+}
+ /* general sibling */
+section ~p{
+    color: brown;
+}
+    </style>
+</head>
+<body>
+     <section>
+
+        <p>Para 1</p>
+        <p>para 2</p>
+        <p>para 3</p>
+        
+        <div>
+            <p>para 4</p>
+        </div>
+    </section>
+    <p>para 5</p>
+    <p>para 6</p>
+        
+</body>
+</html>
